@@ -24,7 +24,7 @@ user_accounts = {}
 ADMIN_IDS = [7786131347]
 APPROVE_FILE = "approve.txt"
 ACCOUNTS_FILE = "accounts.json"
-CHANNEL_ID = -1002341721546  # Channel where accounts are posted
+CHANNEL_ID = 7786131347  # Akun GitHub dikirim ke chat pribadi (DM)
 approved_users = set()
 
 # Load approved users
