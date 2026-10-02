@@ -15,16 +15,16 @@ from selenium.webdriver.support import expected_conditions as EC
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 from TempMail import TempMail
 #from temp_mail import TempMail
-BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
+BOT_TOKEN = "8916681610:AAEucGDijwJXed268NND1SrlBU0b4bAqbSU"
 CHROMEDRIVER_PATH = "/usr/local/bin/chromedriver"
 PASSWORD = "YourDefaultPassword@123"
 bot = telebot.TeleBot(BOT_TOKEN)
 user_sessions = {}
 user_accounts = {} 
-ADMIN_IDS = [YOUR_TELEGRAM_USER_ID]
+ADMIN_IDS = [7786131347]
 APPROVE_FILE = "approve.txt"
 ACCOUNTS_FILE = "accounts.json"
-CHANNEL_ID = YOUR_CHANNEL_ID  # Channel where accounts are posted
+CHANNEL_ID = -1002341721546  # Channel where accounts are posted
 approved_users = set()
 
 # Load approved users
