@@ -15,7 +15,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 from TempMail import TempMail
 #from temp_mail import TempMail
-BOT_TOKEN = "8916681610:AAEucGDijwJXed268NND1SrlBU0b4bAqbSU"
+BOT_TOKEN = "8916681610:AAG3zmO--Rv8g-r3tmBLFkS6qjgLbxjFM5U"
 CHROMEDRIVER_PATH = "/usr/local/bin/chromedriver"
 PASSWORD = "YourDefaultPassword@123"
 bot = telebot.TeleBot(BOT_TOKEN)
